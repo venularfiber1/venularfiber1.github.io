@@ -1,0 +1,161 @@
+html {
+    background-color: #b1adb3;
+    }
+
+    header {
+        position: absolute;
+         top: 0;
+         left: 0%;
+         right: 0%;
+         width: 100%;
+         border-bottom: 2px solid #cccccc;
+        background-color: #ffffff;
+    }
+
+    header .banner {
+        width: 960px;
+        margin:auto;
+    }
+
+
+
+.title {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 32px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 16px;  
+}
+
+
+.name, .link {
+	display: inline-block;
+    text-align: middle;
+}
+
+.name {
+width: 50%;
+}
+
+
+.link{
+    width: 49%;
+    text-align: right;
+    color: lightgrey;  
+}
+
+.link ul li {
+	display: inline-block;
+	padding-left: 16px;
+	margin-left: 16px;
+}
+
+.link ul li a {
+	color: lightgrey;
+	text-decoration: none;
+
+}
+
+.link ul li+li {
+	
+	border-left: 1px solid #cccccc;
+}
+
+.main {
+    position: absolute;
+    left: 471px;
+    top: 80px;
+    width: 960px;
+    clear: both;
+    margin: 0 auto 96px auto;
+    
+}
+
+.par {
+    display: inline-block;
+	width: 960px;
+	margin: 50px 0;
+	padding: 40px;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+}
+
+.par h1{
+    padding-bottom: 16px;
+	margin-bottom: 12px;
+    border-bottom: 2px solid #dddddd;
+    font-size: 30px;
+	font-weight: bold;
+    color: #4aaaa5;
+}
+
+
+img{
+    float: left;
+    padding: 0 18px 18px 0;
+    width: 200px;
+    height: 200px;
+}
+/* Contact */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 16px;
+	text-align: center;
+	font-size: 12px;
+	color: #cccccc;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+}
+/*Portfolio*/
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
